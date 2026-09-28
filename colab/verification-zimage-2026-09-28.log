@@ -1,0 +1,871 @@
+[colab] Parsing notebook 'colab/run-z-image-t4.ipynb'...
+[colab] Executing cell 1/7 - 02ff2382-2052-4bf2-9459-2bf7f5a6a9bd...
+OK: gpu - Tesla T4, 15360 MiB
+[colab] Executing cell 2/7 - cd0e086b-e878-4586-bef0-3372b87b8e68...
+Cloning into '/content/ComfyUI'...
+remote: Enumerating objects: 1385, done.
+remote: Counting objects:   0% (1/1385)
+remote: Counting objects:   1% (14/1385)
+remote: Counting objects:   2% (28/1385)
+remote: Counting objects:   3% (42/1385)
+remote: Counting objects:   4% (56/1385)
+remote: Counting objects:   5% (70/1385)
+remote: Counting objects:   6% (84/1385)
+remote: Counting objects:   7% (97/1385)
+remote: Counting objects:   8% (111/1385)
+remote: Counting objects:   9% (125/1385)
+remote: Counting objects:  10% (139/1385)
+remote: Counting objects:  11% (153/1385)
+remote: Counting objects:  12% (167/1385)
+remote: Counting objects:  13% (181/1385)
+remote: Counting objects:  14% (194/1385)
+remote: Counting objects:  15% (208/1385)
+remote: Counting objects:  16% (222/1385)
+remote: Counting objects:  17% (236/1385)
+remote: Counting objects:  18% (250/1385)
+remote: Counting objects:  19% (264/1385)
+remote: Counting objects:  20% (277/1385)
+remote: Counting objects:  21% (291/1385)
+remote: Counting objects:  22% (305/1385)
+remote: Counting objects:  23% (319/1385)
+remote: Counting objects:  24% (333/1385)
+remote: Counting objects:  25% (347/1385)
+remote: Counting objects:  26% (361/1385)
+remote: Counting objects:  27% (374/1385)
+remote: Counting objects:  28% (388/1385)
+remote: Counting objects:  29% (402/1385)
+remote: Counting objects:  30% (416/1385)
+remote: Counting objects:  31% (430/1385)
+remote: Counting objects:  32% (444/1385)
+remote: Counting objects:  33% (458/1385)
+remote: Counting objects:  34% (471/1385)
+remote: Counting objects:  35% (485/1385)
+remote: Counting objects:  36% (499/1385)
+remote: Counting objects:  37% (513/1385)
+remote: Counting objects:  38% (527/1385)
+remote: Counting objects:  39% (541/1385)
+remote: Counting objects:  40% (554/1385)
+remote: Counting objects:  41% (568/1385)
+remote: Counting objects:  42% (582/1385)
+remote: Counting objects:  43% (596/1385)
+remote: Counting objects:  44% (610/1385)
+remote: Counting objects:  45% (624/1385)
+remote: Counting objects:  46% (638/1385)
+remote: Counting objects:  47% (651/1385)
+remote: Counting objects:  48% (665/1385)
+remote: Counting objects:  49% (679/1385)
+remote: Counting objects:  50% (693/1385)
+remote: Counting objects:  51% (707/1385)
+remote: Counting objects:  52% (721/1385)
+remote: Counting objects:  53% (735/1385)
+remote: Counting objects:  54% (748/1385)
+remote: Counting objects:  55% (762/1385)
+remote: Counting objects:  56% (776/1385)
+remote: Counting objects:  57% (790/1385)
+remote: Counting objects:  58% (804/1385)
+remote: Counting objects:  59% (818/1385)
+remote: Counting objects:  60% (831/1385)
+remote: Counting objects:  61% (845/1385)
+remote: Counting objects:  62% (859/1385)
+remote: Counting objects:  63% (873/1385)
+remote: Counting objects:  64% (887/1385)
+remote: Counting objects:  65% (901/1385)
+remote: Counting objects:  66% (915/1385)
+remote: Counting objects:  67% (928/1385)
+remote: Counting objects:  68% (942/1385)
+remote: Counting objects:  69% (956/1385)
+remote: Counting objects:  70% (970/1385)
+remote: Counting objects:  71% (984/1385)
+remote: Counting objects:  72% (998/1385)
+remote: Counting objects:  73% (1012/1385)
+remote: Counting objects:  74% (1025/1385)
+remote: Counting objects:  75% (1039/1385)
+remote: Counting objects:  76% (1053/1385)
+remote: Counting objects:  77% (1067/1385)
+remote: Counting objects:  78% (1081/1385)
+remote: Counting objects:  79% (1095/1385)
+remote: Counting objects:  80% (1108/1385)
+remote: Counting objects:  81% (1122/1385)
+remote: Counting objects:  82% (1136/1385)
+remote: Counting objects:  83% (1150/1385)
+remote: Counting objects:  84% (1164/1385)
+remote: Counting objects:  85% (1178/1385)
+remote: Counting objects:  86% (1192/1385)
+remote: Counting objects:  87% (1205/1385)
+remote: Counting objects:  88% (1219/1385)
+remote: Counting objects:  89% (1233/1385)
+remote: Counting objects:  90% (1247/1385)
+remote: Counting objects:  91% (1261/1385)
+remote: Counting objects:  92% (1275/1385)
+remote: Counting objects:  93% (1289/1385)
+remote: Counting objects:  94% (1302/1385)
+remote: Counting objects:  95% (1316/1385)
+remote: Counting objects:  96% (1330/1385)
+remote: Counting objects:  97% (1344/1385)
+remote: Counting objects:  98% (1358/1385)
+remote: Counting objects:  99% (1372/1385)
+remote: Counting objects: 100% (1385/1385)
+remote: Counting objects: 100% (1385/1385), done.
+remote: Compressing objects:   0% (1/1185)
+remote: Compressing objects:   1% (12/1185)
+remote: Compressing objects:   2% (24/1185)
+remote: Compressing objects:   3% (36/1185)
+remote: Compressing objects:   4% (48/1185)
+remote: Compressing objects:   5% (60/1185)
+remote: Compressing objects:   6% (72/1185)
+remote: Compressing objects:   7% (83/1185)
+remote: Compressing objects:   8% (95/1185)
+remote: Compressing objects:   9% (107/1185)
+remote: Compressing objects:  10% (119/1185)
+remote: Compressing objects:  11% (131/1185)
+remote: Compressing objects:  12% (143/1185)
+remote: Compressing objects:  13% (155/1185)
+remote: Compressing objects:  14% (166/1185)
+remote: Compressing objects:  15% (178/1185)
+remote: Compressing objects:  16% (190/1185)
+remote: Compressing objects:  17% (202/1185)
+remote: Compressing objects:  18% (214/1185)
+remote: Compressing objects:  19% (226/1185)
+remote: Compressing objects:  20% (237/1185)
+remote: Compressing objects:  21% (249/1185)
+remote: Compressing objects:  22% (261/1185)
+remote: Compressing objects:  23% (273/1185)
+remote: Compressing objects:  24% (285/1185)
+remote: Compressing objects:  25% (297/1185)
+remote: Compressing objects:  26% (309/1185)
+remote: Compressing objects:  27% (320/1185)
+remote: Compressing objects:  28% (332/1185)
+remote: Compressing objects:  29% (344/1185)
+remote: Compressing objects:  30% (356/1185)
+remote: Compressing objects:  31% (368/1185)
+remote: Compressing objects:  32% (380/1185)
+remote: Compressing objects:  33% (392/1185)
+remote: Compressing objects:  34% (403/1185)
+remote: Compressing objects:  35% (415/1185)
+remote: Compressing objects:  36% (427/1185)
+remote: Compressing objects:  37% (439/1185)
+remote: Compressing objects:  38% (451/1185)
+remote: Compressing objects:  39% (463/1185)
+remote: Compressing objects:  40% (474/1185)
+remote: Compressing objects:  41% (486/1185)
+remote: Compressing objects:  42% (498/1185)
+remote: Compressing objects:  43% (510/1185)
+remote: Compressing objects:  44% (522/1185)
+remote: Compressing objects:  45% (534/1185)
+remote: Compressing objects:  46% (546/1185)
+remote: Compressing objects:  47% (557/1185)
+remote: Compressing objects:  48% (569/1185)
+remote: Compressing objects:  49% (581/1185)
+remote: Compressing objects:  50% (593/1185)
+remote: Compressing objects:  51% (605/1185)
+remote: Compressing objects:  52% (617/1185)
+remote: Compressing objects:  53% (629/1185)
+remote: Compressing objects:  54% (640/1185)
+remote: Compressing objects:  55% (652/1185)
+remote: Compressing objects:  56% (664/1185)
+remote: Compressing objects:  57% (676/1185)
+remote: Compressing objects:  58% (688/1185)
+remote: Compressing objects:  59% (700/1185)
+remote: Compressing objects:  60% (711/1185)
+remote: Compressing objects:  61% (723/1185)
+remote: Compressing objects:  62% (735/1185)
+remote: Compressing objects:  63% (747/1185)
+remote: Compressing objects:  64% (759/1185)
+remote: Compressing objects:  65% (771/1185)
+remote: Compressing objects:  66% (783/1185)
+remote: Compressing objects:  67% (794/1185)
+remote: Compressing objects:  68% (806/1185)
+remote: Compressing objects:  69% (818/1185)
+remote: Compressing objects:  70% (830/1185)
+remote: Compressing objects:  71% (842/1185)
+remote: Compressing objects:  72% (854/1185)
+remote: Compressing objects:  73% (866/1185)
+remote: Compressing objects:  74% (877/1185)
+remote: Compressing objects:  75% (889/1185)
+remote: Compressing objects:  76% (901/1185)
+remote: Compressing objects:  77% (913/1185)
+remote: Compressing objects:  78% (925/1185)
+remote: Compressing objects:  79% (937/1185)
+remote: Compressing objects:  80% (948/1185)
+remote: Compressing objects:  81% (960/1185)
+remote: Compressing objects:  82% (972/1185)
+remote: Compressing objects:  83% (984/1185)
+remote: Compressing objects:  84% (996/1185)
+remote: Compressing objects:  85% (1008/1185)
+remote: Compressing objects:  86% (1020/1185)
+remote: Compressing objects:  87% (1031/1185)
+remote: Compressing objects:  88% (1043/1185)
+remote: Compressing objects:  89% (1055/1185)
+remote: Compressing objects:  90% (1067/1185)
+remote: Compressing objects:  91% (1079/1185)
+remote: Compressing objects:  92% (1091/1185)
+remote: Compressing objects:  93% (1103/1185)
+remote: Compressing objects:  94% (1114/1185)
+remote: Compressing objects:  95% (1126/1185)
+remote: Compressing objects:  96% (1138/1185)
+remote: Compressing objects:  97% (1150/1185)
+remote: Compressing objects:  98% (1162/1185)
+remote: Compressing objects:  99% (1174/1185)
+remote: Compressing objects: 100% (1185/1185)
+remote: Compressing objects: 100% (1185/1185), done.
+Receiving objects:   0% (1/1385)
+Receiving objects:   1% (14/1385)
+Receiving objects:   2% (28/1385)
+Receiving objects:   3% (42/1385)
+Receiving objects:   4% (56/1385)
+Receiving objects:   5% (70/1385)
+Receiving objects:   6% (84/1385)
+Receiving objects:   7% (97/1385)
+Receiving objects:   8% (111/1385)
+Receiving objects:   9% (125/1385)
+Receiving objects:  10% (139/1385)
+Receiving objects:  11% (153/1385)
+Receiving objects:  12% (167/1385)
+Receiving objects:  13% (181/1385)
+Receiving objects:  14% (194/1385)
+Receiving objects:  15% (208/1385)
+Receiving objects:  16% (222/1385)
+Receiving objects:  17% (236/1385)
+Receiving objects:  18% (250/1385)
+Receiving objects:  19% (264/1385)
+Receiving objects:  20% (277/1385)
+Receiving objects:  21% (291/1385)
+Receiving objects:  22% (305/1385)
+Receiving objects:  23% (319/1385)
+Receiving objects:  24% (333/1385)
+Receiving objects:  25% (347/1385)
+Receiving objects:  26% (361/1385)
+Receiving objects:  27% (374/1385)
+Receiving objects:  28% (388/1385)
+Receiving objects:  29% (402/1385)
+Receiving objects:  30% (416/1385)
+Receiving objects:  31% (430/1385)
+Receiving objects:  32% (444/1385)
+Receiving objects:  33% (458/1385)
+Receiving objects:  34% (471/1385)
+Receiving objects:  35% (485/1385)
+Receiving objects:  36% (499/1385)
+Receiving objects:  37% (513/1385)
+Receiving objects:  38% (527/1385)
+Receiving objects:  39% (541/1385)
+Receiving objects:  40% (554/1385)
+Receiving objects:  41% (568/1385)
+Receiving objects:  42% (582/1385)
+Receiving objects:  43% (596/1385)
+Receiving objects:  44% (610/1385)
+Receiving objects:  45% (624/1385)
+Receiving objects:  46% (638/1385)
+Receiving objects:  47% (651/1385)
+Receiving objects:  48% (665/1385)
+Receiving objects:  49% (679/1385)
+Receiving objects:  50% (693/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  51% (707/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  52% (721/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  53% (735/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  54% (748/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  55% (762/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  56% (776/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  57% (790/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  58% (804/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  59% (818/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  60% (831/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  61% (845/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  62% (859/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  63% (873/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  64% (887/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  65% (901/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  66% (915/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  67% (928/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  68% (942/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  69% (956/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  70% (970/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  71% (984/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  72% (998/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  73% (1012/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  74% (1025/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  75% (1039/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  76% (1053/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  77% (1067/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  78% (1081/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  79% (1095/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  80% (1108/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  81% (1122/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  82% (1136/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  83% (1150/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  84% (1164/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  85% (1178/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  86% (1192/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  87% (1205/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  88% (1219/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  89% (1233/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  90% (1247/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  91% (1261/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  92% (1275/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  93% (1289/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  94% (1302/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  95% (1316/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  96% (1330/1385), 6.78 MiB | 13.55 MiB/s
+remote: Total 1385 (delta 154), reused 1281 (delta 153), pack-reused 0 (from 0)
+Receiving objects:  97% (1344/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  98% (1358/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects:  99% (1372/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects: 100% (1385/1385), 6.78 MiB | 13.55 MiB/s
+Receiving objects: 100% (1385/1385), 12.16 MiB | 16.15 MiB/s, done.
+Resolving deltas:   0% (0/154)
+Resolving deltas:   1% (2/154)
+Resolving deltas:   2% (4/154)
+Resolving deltas:   3% (5/154)
+Resolving deltas:   4% (7/154)
+Resolving deltas:   5% (8/154)
+Resolving deltas:   6% (10/154)
+Resolving deltas:   7% (11/154)
+Resolving deltas:   8% (13/154)
+Resolving deltas:   9% (14/154)
+Resolving deltas:  10% (16/154)
+Resolving deltas:  11% (17/154)
+Resolving deltas:  12% (19/154)
+Resolving deltas:  13% (21/154)
+Resolving deltas:  14% (22/154)
+Resolving deltas:  15% (24/154)
+Resolving deltas:  16% (25/154)
+Resolving deltas:  17% (27/154)
+Resolving deltas:  18% (28/154)
+Resolving deltas:  19% (30/154)
+Resolving deltas:  20% (31/154)
+Resolving deltas:  21% (33/154)
+Resolving deltas:  22% (34/154)
+Resolving deltas:  23% (36/154)
+Resolving deltas:  24% (37/154)
+Resolving deltas:  25% (39/154)
+Resolving deltas:  26% (41/154)
+Resolving deltas:  27% (42/154)
+Resolving deltas:  28% (44/154)
+Resolving deltas:  29% (45/154)
+Resolving deltas:  30% (47/154)
+Resolving deltas:  31% (48/154)
+Resolving deltas:  32% (50/154)
+Resolving deltas:  33% (51/154)
+Resolving deltas:  34% (53/154)
+Resolving deltas:  35% (54/154)
+Resolving deltas:  36% (56/154)
+Resolving deltas:  37% (57/154)
+Resolving deltas:  38% (59/154)
+Resolving deltas:  39% (61/154)
+Resolving deltas:  40% (62/154)
+Resolving deltas:  41% (64/154)
+Resolving deltas:  42% (65/154)
+Resolving deltas:  43% (67/154)
+Resolving deltas:  44% (68/154)
+Resolving deltas:  45% (70/154)
+Resolving deltas:  46% (71/154)
+Resolving deltas:  47% (73/154)
+Resolving deltas:  48% (74/154)
+Resolving deltas:  49% (76/154)
+Resolving deltas:  50% (77/154)
+Resolving deltas:  51% (79/154)
+Resolving deltas:  52% (81/154)
+Resolving deltas:  53% (82/154)
+Resolving deltas:  54% (84/154)
+Resolving deltas:  55% (85/154)
+Resolving deltas:  56% (87/154)
+Resolving deltas:  57% (88/154)
+Resolving deltas:  58% (90/154)
+Resolving deltas:  59% (91/154)
+Resolving deltas:  60% (93/154)
+Resolving deltas:  61% (94/154)
+Resolving deltas:  62% (96/154)
+Resolving deltas:  63% (98/154)
+Resolving deltas:  64% (99/154)
+Resolving deltas:  65% (101/154)
+Resolving deltas:  66% (102/154)
+Resolving deltas:  67% (104/154)
+Resolving deltas:  68% (105/154)
+Resolving deltas:  69% (107/154)
+Resolving deltas:  70% (108/154)
+Resolving deltas:  71% (110/154)
+Resolving deltas:  72% (111/154)
+Resolving deltas:  73% (113/154)
+Resolving deltas:  74% (114/154)
+Resolving deltas:  75% (116/154)
+Resolving deltas:  76% (118/154)
+Resolving deltas:  77% (119/154)
+Resolving deltas:  78% (121/154)
+Resolving deltas:  79% (122/154)
+Resolving deltas:  80% (124/154)
+Resolving deltas:  81% (125/154)
+Resolving deltas:  82% (127/154)
+Resolving deltas:  83% (128/154)
+Resolving deltas:  84% (130/154)
+Resolving deltas:  85% (131/154)
+Resolving deltas:  86% (133/154)
+Resolving deltas:  87% (134/154)
+Resolving deltas:  88% (136/154)
+Resolving deltas:  89% (138/154)
+Resolving deltas:  90% (139/154)
+Resolving deltas:  91% (141/154)
+Resolving deltas:  92% (142/154)
+Resolving deltas:  93% (144/154)
+Resolving deltas:  94% (145/154)
+Resolving deltas:  95% (147/154)
+Resolving deltas:  96% (148/154)
+Resolving deltas:  97% (150/154)
+Resolving deltas:  98% (151/154)
+Resolving deltas:  99% (153/154)
+Resolving deltas: 100% (154/154)
+Resolving deltas: 100% (154/154), done.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/25.2 MB ? eta -:--:--
+   ━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/25.2 MB 75.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/25.2 MB 141.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━ 17.5/25.2 MB 208.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 25.1/25.2 MB 248.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 25.1/25.2 MB 248.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 25.1/25.2 MB 248.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.2/25.2 MB 85.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/19.5 MB ? eta -:--:--
+   ━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/19.5 MB 201.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━ 14.7/19.5 MB 219.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 19.5/19.5 MB 249.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 19.5/19.5 MB 249.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.5/19.5 MB 100.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/47.2 MB ? eta -:--:--
+   ━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/47.2 MB 187.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.4/47.2 MB 184.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━ 21.2/47.2 MB 220.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━ 28.7/47.2 MB 217.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━ 36.5/47.2 MB 221.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━ 42.7/47.2 MB 190.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 47.2/47.2 MB 181.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.2/47.2 MB 18.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/432.7 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 432.7/432.7 kB 32.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/78.3 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 kB 6.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/3.7 MB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 3.7/3.7 MB 201.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 94.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/100.1 MB ? eta -:--:--
+   ━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/100.1 MB 184.2 MB/s eta 0:00:01
+   ━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/100.1 MB 171.2 MB/s eta 0:00:01
+   ━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/100.1 MB 167.0 MB/s eta 0:00:01
+   ━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.9/100.1 MB 163.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.8/100.1 MB 166.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.0/100.1 MB 155.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━ 41.5/100.1 MB 167.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━ 47.2/100.1 MB 172.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━ 50.6/100.1 MB 115.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━ 52.7/100.1 MB 89.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━ 55.0/100.1 MB 72.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━ 59.3/100.1 MB 76.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━ 64.8/100.1 MB 130.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━ 68.9/100.1 MB 125.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━ 73.4/100.1 MB 121.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━ 77.5/100.1 MB 114.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━ 81.0/100.1 MB 106.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━ 84.1/100.1 MB 91.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━ 87.1/100.1 MB 83.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━ 90.8/100.1 MB 81.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━ 94.7/100.1 MB 90.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 99.6/100.1 MB 110.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 100.1/100.1 MB 109.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.1/100.1 MB 8.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/94.2 MB ? eta -:--:--
+   ━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/94.2 MB 242.8 MB/s eta 0:00:01
+   ━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/94.2 MB 251.4 MB/s eta 0:00:01
+   ━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.5/94.2 MB 245.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━ 32.2/94.2 MB 210.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━ 37.0/94.2 MB 161.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━ 41.7/94.2 MB 139.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━ 46.5/94.2 MB 135.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━ 51.3/94.2 MB 136.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━ 56.1/94.2 MB 136.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━ 61.0/94.2 MB 136.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━ 64.8/94.2 MB 114.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━ 68.1/94.2 MB 100.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━ 72.7/94.2 MB 108.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━ 79.3/94.2 MB 160.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━ 82.9/94.2 MB 145.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━ 86.3/94.2 MB 120.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━ 89.7/94.2 MB 101.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 93.2/94.2 MB 99.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 94.2/94.2 MB 96.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.2/94.2 MB 8.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/15.8 MB ? eta -:--:--
+   ━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/15.8 MB 107.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━ 6.9/15.8 MB 102.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━ 10.6/15.8 MB 100.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 14.1/15.8 MB 101.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 15.8/15.8 MB 102.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 15.8/15.8 MB 102.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 62.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/89.4 MB ? eta -:--:--
+   ━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/89.4 MB 108.4 MB/s eta 0:00:01
+   ━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.3/89.4 MB 106.4 MB/s eta 0:00:01
+   ━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/89.4 MB 105.7 MB/s eta 0:00:01
+   ━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.6/89.4 MB 106.2 MB/s eta 0:00:01
+   ━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/89.4 MB 105.8 MB/s eta 0:00:01
+   ━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22.0/89.4 MB 106.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.8/89.4 MB 107.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.5/89.4 MB 106.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━ 33.3/89.4 MB 106.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━ 37.0/89.4 MB 108.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━ 40.8/89.4 MB 107.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━ 44.6/89.4 MB 108.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━ 48.4/89.4 MB 107.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━ 52.2/89.4 MB 108.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━ 56.0/89.4 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━ 60.1/89.4 MB 107.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━ 64.0/89.4 MB 107.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━ 67.9/89.4 MB 112.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━ 72.0/89.4 MB 110.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━ 76.1/89.4 MB 114.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━ 80.1/89.4 MB 115.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━ 84.2/89.4 MB 115.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺ 88.2/89.4 MB 116.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.4/89.4 MB 113.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.4/89.4 MB 9.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/89.1 MB ? eta -:--:--
+   ━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/89.1 MB 123.1 MB/s eta 0:00:01
+   ━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.1/89.1 MB 119.3 MB/s eta 0:00:01
+   ━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/89.1 MB 117.2 MB/s eta 0:00:01
+   ━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/89.1 MB 116.0 MB/s eta 0:00:01
+   ━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.8/89.1 MB 118.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.9/89.1 MB 118.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.1/89.1 MB 117.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━ 33.2/89.1 MB 119.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━ 37.4/89.1 MB 118.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━ 41.7/89.1 MB 119.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━ 45.9/89.1 MB 120.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━ 50.3/89.1 MB 122.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━ 54.6/89.1 MB 123.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━ 59.0/89.1 MB 124.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━ 63.3/89.1 MB 124.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━ 68.1/89.1 MB 120.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━ 71.5/89.1 MB 111.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━ 76.2/89.1 MB 111.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━ 81.1/89.1 MB 133.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━ 85.5/89.1 MB 130.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 89.1/89.1 MB 124.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.1/89.1 MB 9.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/104.3 MB ? eta -:--:--
+   ━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/104.3 MB 122.3 MB/s eta 0:00:01
+   ━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/104.3 MB 117.8 MB/s eta 0:00:01
+   ━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/104.3 MB 116.4 MB/s eta 0:00:01
+   ━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.2/104.3 MB 116.9 MB/s eta 0:00:01
+   ━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.7/104.3 MB 122.7 MB/s eta 0:00:01
+   ━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.2/104.3 MB 129.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.8/104.3 MB 129.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.3/104.3 MB 127.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━ 39.0/104.3 MB 126.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━ 43.7/104.3 MB 131.0 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━ 48.5/104.3 MB 133.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━ 53.1/104.3 MB 132.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━ 57.8/104.3 MB 132.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━ 62.6/104.3 MB 132.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━ 66.8/104.3 MB 126.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━ 72.4/104.3 MB 124.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━ 77.0/104.3 MB 123.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━ 82.2/104.3 MB 133.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━ 86.8/104.3 MB 136.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━ 90.9/104.3 MB 125.5 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━ 94.1/104.3 MB 110.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━ 98.1/104.3 MB 101.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━ 101.7/104.3 MB 99.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 104.3/104.3 MB 107.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.3/104.3 MB 8.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/61.2 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 4.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/268.7 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 268.7/268.7 kB 27.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/35.8 MB ? eta -:--:--
+   ━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/35.8 MB 145.8 MB/s eta 0:00:01
+   ━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/35.8 MB 144.2 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━ 15.9/35.8 MB 142.9 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━ 21.3/35.8 MB 149.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━━━━━━━━━ 26.4/35.8 MB 145.4 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━ 31.4/35.8 MB 134.3 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 35.8/35.8 MB 135.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 35.8/35.8 MB 135.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 35.8/35.8 MB 135.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 35.8/35.8 MB 135.7 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.8/35.8 MB 47.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/383.6 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 383.6/383.6 kB 26.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/1.2 MB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 54.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/320.8 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 320.8/320.8 kB 22.5 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/69.4 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.4/69.4 kB 7.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/5.1 MB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 5.1/5.1 MB 153.1 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 94.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/5.3 MB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━━ 5.1/5.3 MB 152.6 MB/s eta 0:00:01
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 98.3 MB/s eta 0:00:00
+Cloning into '/content/ComfyUI/custom_nodes/ComfyUI-GGUF'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects:   5% (1/19)
+remote: Counting objects:  10% (2/19)
+remote: Counting objects:  15% (3/19)
+remote: Counting objects:  21% (4/19)
+remote: Counting objects:  26% (5/19)
+remote: Counting objects:  31% (6/19)
+remote: Counting objects:  36% (7/19)
+remote: Counting objects:  42% (8/19)
+remote: Counting objects:  47% (9/19)
+remote: Counting objects:  52% (10/19)
+remote: Counting objects:  57% (11/19)
+remote: Counting objects:  63% (12/19)
+remote: Counting objects:  68% (13/19)
+remote: Counting objects:  73% (14/19)
+remote: Counting objects:  78% (15/19)
+remote: Counting objects:  84% (16/19)
+remote: Counting objects:  89% (17/19)
+remote: Counting objects:  94% (18/19)
+remote: Counting objects: 100% (19/19)
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects:   5% (1/19)
+remote: Compressing objects:  10% (2/19)
+remote: Compressing objects:  15% (3/19)
+remote: Compressing objects:  21% (4/19)
+remote: Compressing objects:  26% (5/19)
+remote: Compressing objects:  31% (6/19)
+remote: Compressing objects:  36% (7/19)
+remote: Compressing objects:  42% (8/19)
+remote: Compressing objects:  47% (9/19)
+remote: Compressing objects:  52% (10/19)
+remote: Compressing objects:  57% (11/19)
+remote: Compressing objects:  63% (12/19)
+remote: Compressing objects:  68% (13/19)
+remote: Compressing objects:  73% (14/19)
+remote: Compressing objects:  78% (15/19)
+remote: Compressing objects:  84% (16/19)
+remote: Compressing objects:  89% (17/19)
+remote: Compressing objects:  94% (18/19)
+remote: Compressing objects: 100% (19/19)
+remote: Compressing objects: 100% (19/19), done.
+Receiving objects:   5% (1/19)
+Receiving objects:  10% (2/19)
+Receiving objects:  15% (3/19)
+Receiving objects:  21% (4/19)
+Receiving objects:  26% (5/19)
+Receiving objects:  31% (6/19)
+Receiving objects:  36% (7/19)
+Receiving objects:  42% (8/19)
+Receiving objects:  47% (9/19)
+Receiving objects:  52% (10/19)
+Receiving objects:  57% (11/19)
+Receiving objects:  63% (12/19)
+Receiving objects:  68% (13/19)
+Receiving objects:  73% (14/19)
+Receiving objects:  78% (15/19)
+Receiving objects:  84% (16/19)
+Receiving objects:  89% (17/19)
+remote: Total 19 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects:  94% (18/19)
+Receiving objects: 100% (19/19)
+Receiving objects: 100% (19/19), 34.62 KiB | 581.00 KiB/s, done.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/118.5 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.5/118.5 kB 6.7 MB/s eta 0:00:00
+OK: install (43s)
+[colab] Executing cell 3/7 - dd941035-4b9b-4f77-a1ca-d1467b505368...
+downloading: z_image_turbo_bf16.safetensors
+downloading: qwen_3_4b.safetensors
+downloading: ae.safetensors
+downloading: qwen-image-2.1-Q4_K_M.gguf
+downloading: qwen3vl_8b_int8_convrot.safetensors
+downloading: qwen_image_2.1_vae_bf16.safetensors
+downloading: Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r256.safetensors
+OK: download (377s total, ~36 GB fresh)
+[colab] Executing cell 4/7 - dda083ff-e4a3-45fe-9193-bca59562b5ca...
+OK: launch (27s)
+[colab] Executing cell 5/7 - 3104c841-3c81-42b2-b5e3-3c98feb58dd1...
+<IPython.core.display.Image object>
+
+[Image saved to: /tmp/tmphgsl6j3n.png]
+OK: generate (105s incl. first-time model loads; warm repeats of a prompt run ~18 s, a NEW prompt ~42 s) -> /content/z-sample.png
+[colab] Executing cell 6/7 - c52966f1-39c8-4f8b-84e0-7cafbaa0b32d...
+API URL: https://ideas-medications-britannica-filme.trycloudflare.com
+OK: tunnel
+[colab] Executing cell 7/7 - 57bbb69c-212c-42b9-b37f-d199666b8c32...
+
+Your text-to-image API is live from anywhere (while this notebook runs):
+
+  python3 txt2img.py --url https://ideas-medications-britannica-filme.trycloudflare.com \
+      --prompt 'a red fox in snow, film photo' --out fox.png
+
+Default engine: Z-Image turbo (8 steps, CFG off) — fastest on repeats of a
+prompt (~18 s warm); a NEW prompt pays one text-encoder reload (~42 s).
+Switch to the bundled Qwen comparison engine — steady ~27 s on any prompt:
+
+  python3 txt2img.py --url https://ideas-medications-britannica-filme.trycloudflare.com --engine qwen \
+      --prompt 'a red fox in snow, film photo' --out fox-qwen.png
+
+(txt2img.py ships in the repo under clients/ - it needs only Python 3,
+no installs. The URL changes every notebook re-run.)
+
+Raw HTTP works too:
+  curl https://ideas-medications-britannica-filme.trycloudflare.com/system_stats
+
+OK: api
+[colab] Saving notebook with outputs to 'colab/run-z-image-t4_output.ipynb'...

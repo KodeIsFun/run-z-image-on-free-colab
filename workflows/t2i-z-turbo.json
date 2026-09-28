@@ -1,0 +1,81 @@
+{
+ "_comment": "The exact verified TURBO text-to-image graph for Z-Image-Turbo (Tongyi-MAI, 6B S3-DiT, apache-2.0) on a free T4, using the Comfy-Org split files and the official t2i template recipe verbatim: CLIPLoader type=lumina2 for the Qwen3-4B text encoder (there is no z_image type), ModelSamplingAuraFlow shift=3, KSampler 8 steps cfg 1.0 res_multistep/simple, ConditioningZeroOut negative. POST to /prompt wrapped as {\"prompt\": <this object>, \"client_id\": \"x\"}. Settings = the measured combo: 768x768, seed 42 -> ~18 s warm repeat (fastest measured on a free T4), ~42 s on the first render with a fresh prompt (the 8.04 GB text encoder cannot stay resident beside the 12.31 GB unet on 15.6 GB, so ComfyUI reloads it per new prompt — see references/04-tweaking.md). The distill_patch_lora in the Comfy-Org repo is NOT needed for t2i. Numbers trace to timings_v7_zimage.json + timings_v7b_warm.json in the GPUTests lab repo (projects/2026-W40-zimage-turbo-t4/). The Qwen turbo comparison graph: workflows/t2i-qwen-turbo.json.",
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "z_image_turbo_bf16.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "2": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen_3_4b.safetensors",
+   "type": "lumina2",
+   "device": "default"
+  }
+ },
+ "3": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "ae.safetensors"
+  }
+ },
+ "4": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "clip": ["2", 0],
+   "text": "a neon shop sign that reads \"FREE GPU LAB\", rainy night, reflections on wet pavement"
+  }
+ },
+ "5": {
+  "class_type": "ConditioningZeroOut",
+  "inputs": {
+   "conditioning": ["4", 0]
+  }
+ },
+ "6": {
+  "class_type": "EmptySD3LatentImage",
+  "inputs": {
+   "width": 768,
+   "height": 768,
+   "batch_size": 1
+  }
+ },
+ "7": {
+  "class_type": "ModelSamplingAuraFlow",
+  "inputs": {
+   "model": ["1", 0],
+   "shift": 3
+  }
+ },
+ "8": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": ["7", 0],
+   "positive": ["4", 0],
+   "negative": ["5", 0],
+   "latent_image": ["6", 0],
+   "seed": 42,
+   "steps": 8,
+   "cfg": 1.0,
+   "sampler_name": "res_multistep",
+   "scheduler": "simple",
+   "denoise": 1.0
+  }
+ },
+ "9": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": ["8", 0],
+   "vae": ["3", 0]
+  }
+ },
+ "10": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": ["9", 0],
+   "filename_prefix": "z_t4_turbo"
+  }
+ }
+}
